@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Claude" version="22.1.0" type="device">
+  <diagram id="api-architecture" name="API &amp; Integration Architecture">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Open Banking API &amp; Integration Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="380" y="20" width="550" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Third Party Providers -->
+        <mxCell id="tpp-section" value="THIRD-PARTY PROVIDERS (TPPs)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=12;fontColor=#7B1FA2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="70" width="250" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tpp-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#9673a6;shadow=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="95" width="1120" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="aisp" value="AISP&#xa;(Account Info)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="110" width="120" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="pisp" value="PISP&#xa;(Payment Init)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="110" width="120" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="fintech" value="Fintech&#xa;Apps" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="110" width="120" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="aggregator" value="Account&#xa;Aggregators" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="110" width="120" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="merchant" value="Merchant&#xa;Systems" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="110" width="120" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="partner" value="Partner&#xa;Banks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="110" width="120" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="internal" value="Internal&#xa;Channels" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="110" width="120" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- API Gateway Layer -->
+        <mxCell id="gateway-section" value="API GATEWAY LAYER" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=12;fontColor=#1565C0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="185" width="200" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="gateway-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="210" width="1120" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="rate-limit" value="Rate&#xa;Limiting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="225" width="90" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="auth-gw" value="OAuth 2.0&#xa;Authentication" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="225" width="100" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="routing" value="Request&#xa;Routing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="225" width="90" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="transform" value="Protocol&#xa;Transform" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="225" width="90" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="validation-gw" value="Request&#xa;Validation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="225" width="90" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="logging-gw" value="Audit&#xa;Logging" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="225" width="90" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="caching" value="Response&#xa;Caching" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="225" width="90" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="versioning" value="API&#xa;Versioning" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="225" width="90" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="throttle" value="Load&#xa;Balancing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="225" width="90" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Consent Layer -->
+        <mxCell id="consent-section" value="CONSENT MANAGEMENT" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=12;fontColor=#E65100;" vertex="1" parent="1">
+          <mxGeometry x="80" y="300" width="200" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="consent-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#d79b00;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="325" width="1120" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="consent-create" value="Consent&#xa;Creation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="335" width="120" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="consent-auth" value="Customer&#xa;Authorization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="335" width="120" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="consent-scope" value="Scope&#xa;Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="335" width="120" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="consent-valid" value="Consent&#xa;Validation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="335" width="120" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="consent-revoke" value="Revocation&#xa;Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="335" width="120" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="consent-audit" value="Consent&#xa;Audit Trail" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="335" width="120" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="consent-expiry" value="Expiry&#xa;Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="335" width="120" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- API Categories -->
+        <mxCell id="api-section" value="BANKING API ENDPOINTS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=12;fontColor=#2E7D32;" vertex="1" parent="1">
+          <mxGeometry x="80" y="395" width="200" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="api-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="420" width="1120" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- Account APIs -->
+        <mxCell id="acc-api" value="Account APIs&#xa;/accounts&#xa;/accounts/{id}&#xa;/accounts/{id}/balance&#xa;/accounts/{id}/transactions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;fontSize=9;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="100" y="430" width="150" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Payment APIs -->
+        <mxCell id="pay-api" value="Payment APIs&#xa;/payments&#xa;/payments/{id}&#xa;/payments/{id}/status&#xa;/domestic-payments&#xa;/international-payments" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;fontSize=9;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="270" y="430" width="150" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Customer APIs -->
+        <mxCell id="cust-api" value="Customer APIs&#xa;/customers&#xa;/customers/{id}&#xa;/customers/{id}/accounts&#xa;/customers/{id}/consents" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;fontSize=9;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="440" y="430" width="150" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Product APIs -->
+        <mxCell id="prod-api" value="Product APIs&#xa;/products&#xa;/products/{code}&#xa;/products/{code}/rates&#xa;/products/{code}/eligibility" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;fontSize=9;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="610" y="430" width="150" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Statement APIs -->
+        <mxCell id="stmt-api" value="Statement APIs&#xa;/statements&#xa;/statements/{id}&#xa;/statements/{id}/pdf&#xa;/statements/request" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;fontSize=9;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="780" y="430" width="150" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Confirmation APIs -->
+        <mxCell id="conf-api" value="Funds Confirmation&#xa;/funds-confirmation&#xa;&#xa;Card APIs&#xa;/cards&#xa;/cards/{id}/limits" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;fontSize=9;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="950" y="430" width="150" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- OAuth Flow -->
+        <mxCell id="oauth-section" value="OAUTH 2.0 AUTHORIZATION FLOW" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=14;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="80" y="560" width="350" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="oauth-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="590" width="600" height="180" as="geometry" />
+        </mxCell>
+
+        <!-- OAuth Steps -->
+        <mxCell id="oauth-tpp" value="TPP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="620" width="60" height="130" as="geometry" />
+        </mxCell>
+
+        <mxCell id="oauth-bank" value="Bank" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="620" width="60" height="130" as="geometry" />
+        </mxCell>
+
+        <mxCell id="oauth-cust" value="Customer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="620" width="60" height="130" as="geometry" />
+        </mxCell>
+
+        <mxCell id="oauth-arr1" value="1. Auth Request" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;strokeColor=#666666;fontSize=9;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="635" as="sourcePoint" />
+            <mxPoint x="420" y="635" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="oauth-arr2" value="2. Redirect to login" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;strokeColor=#666666;fontSize=9;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="655" as="sourcePoint" />
+            <mxPoint x="160" y="655" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="oauth-arr3" value="3. Login + Consent" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;strokeColor=#666666;fontSize=9;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="675" as="sourcePoint" />
+            <mxPoint x="260" y="675" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="oauth-arr4" value="4. Authorize" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;strokeColor=#666666;fontSize=9;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="695" as="sourcePoint" />
+            <mxPoint x="420" y="695" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="oauth-arr5" value="5. Auth Code" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;strokeColor=#666666;fontSize=9;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="715" as="sourcePoint" />
+            <mxPoint x="160" y="715" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="oauth-arr6" value="6. Exchange for Token" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;strokeColor=#666666;fontSize=9;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="735" as="sourcePoint" />
+            <mxPoint x="420" y="735" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="oauth-arr7" value="7. Access Token" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;strokeColor=#82b366;fontSize=9;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="755" as="sourcePoint" />
+            <mxPoint x="160" y="755" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Token info -->
+        <mxCell id="token-info" value="Access Token (JWT)&#xa;• expires_in: 3600&#xa;• scope: accounts:read&#xa;• token_type: Bearer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;fontSize=9;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="510" y="620" width="150" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Integration Patterns -->
+        <mxCell id="patterns-section" value="INTEGRATION PATTERNS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=14;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="720" y="560" width="250" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sync-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="590" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="sync-header" value="SYNCHRONOUS (Request-Response)" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;fontStyle=1;fontSize=10;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="590" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sync-content" value="• REST APIs&#xa;• GraphQL&#xa;• gRPC&#xa;• Real-time queries" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="720" y="610" width="230" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="async-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="590" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="async-header" value="ASYNCHRONOUS (Event-Driven)" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;fontStyle=1;fontSize=10;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="590" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="async-content" value="• Webhooks&#xa;• Message Queues (Kafka)&#xa;• Event Streaming&#xa;• Pub/Sub notifications" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="970" y="610" width="230" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="file-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="690" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="file-header" value="BATCH (File-Based)" style="text;html=1;strokeColor=none;fillColor=#9673a6;align=center;verticalAlign=middle;fontStyle=1;fontSize=10;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="690" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="file-content" value="• SFTP transfers&#xa;• ISO 20022 files&#xa;• Regulatory reporting&#xa;• Bulk data exchange" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="720" y="710" width="230" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="stream-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="690" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="stream-header" value="STREAMING (Real-Time)" style="text;html=1;strokeColor=none;fillColor=#d79b00;align=center;verticalAlign=middle;fontStyle=1;fontSize=10;fontColor=#000000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="690" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="stream-content" value="• WebSocket connections&#xa;• Server-Sent Events&#xa;• Real-time notifications&#xa;• Live price feeds" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="970" y="710" width="230" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

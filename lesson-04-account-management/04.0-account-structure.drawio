@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Claude" version="22.1.0" type="device">
+  <diagram id="account-structure" name="Account Structure and Lifecycle">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Account Structure and Lifecycle" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="450" y="20" width="400" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Account Types Section -->
+        <mxCell id="types-section" value="ACCOUNT TYPES" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=14;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="80" y="70" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Deposit Accounts -->
+        <mxCell id="deposit-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="100" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="deposit-header" value="DEPOSIT ACCOUNTS (Liability)" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="100" width="300" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="savings" value="Savings Account" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="90" y="130" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="current" value="Current Account" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="190" y="130" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="term" value="Term Deposit" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="290" y="130" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="money-mkt" value="Money Market" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="90" y="175" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="notice" value="Notice Account" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="190" y="175" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="escrow" value="Escrow" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="290" y="175" width="80" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Loan Accounts -->
+        <mxCell id="loan-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="100" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="loan-header" value="LOAN ACCOUNTS (Asset)" style="text;html=1;strokeColor=none;fillColor=#b85450;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="100" width="300" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="personal-loan" value="Personal Loan" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="410" y="130" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="mortgage" value="Mortgage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="510" y="130" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="auto-loan" value="Auto Loan" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="610" y="130" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="business-loan" value="Business Loan" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="410" y="175" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="credit-line" value="Credit Line" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="510" y="175" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="overdraft" value="Overdraft" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="610" y="175" width="80" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Internal Accounts -->
+        <mxCell id="internal-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="100" width="280" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="internal-header" value="INTERNAL ACCOUNTS" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="100" width="280" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="gl-acc" value="GL Accounts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="730" y="130" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="suspense" value="Suspense" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="820" y="130" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="clearing" value="Clearing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="910" y="130" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="nostro" value="Nostro" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="730" y="175" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="vostro" value="Vostro" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="820" y="175" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="position" value="Position" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="910" y="175" width="80" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Card Accounts -->
+        <mxCell id="card-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="100" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="card-header" value="CARD ACCOUNTS" style="text;html=1;strokeColor=none;fillColor=#d79b00;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="100" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="credit-card" value="Credit Card" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="130" width="85" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="debit-card" value="Debit Card" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1125" y="130" width="85" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="prepaid" value="Prepaid Card" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="175" width="85" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="virtual" value="Virtual Card" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1125" y="175" width="85" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Account Lifecycle Section -->
+        <mxCell id="lifecycle-section" value="ACCOUNT LIFECYCLE" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=14;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="80" y="250" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Lifecycle States -->
+        <mxCell id="draft" value="DRAFT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="290" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pending" value="PENDING&#xa;ACTIVATION" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="290" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="active" value="ACTIVE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="290" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dormant" value="DORMANT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="290" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="blocked" value="BLOCKED" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="290" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="closed" value="CLOSED" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="290" width="100" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Lifecycle Arrows -->
+        <mxCell id="arr1" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="315" as="sourcePoint" />
+            <mxPoint x="230" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr2" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="315" as="sourcePoint" />
+            <mxPoint x="380" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="315" as="sourcePoint" />
+            <mxPoint x="530" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr4" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="315" as="sourcePoint" />
+            <mxPoint x="680" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="315" as="sourcePoint" />
+            <mxPoint x="830" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Reactivation arrow -->
+        <mxCell id="reactivate" value="Reactivate" style="endArrow=classic;html=1;rounded=0;curved=1;strokeWidth=1;strokeColor=#82b366;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#82b366;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="340" as="sourcePoint" />
+            <mxPoint x="430" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="505" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Block from Active -->
+        <mxCell id="block-arr" value="Block" style="endArrow=classic;html=1;rounded=0;curved=1;strokeWidth=1;strokeColor=#b85450;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;fontColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="290" as="sourcePoint" />
+            <mxPoint x="730" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="265" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Account Structure Section -->
+        <mxCell id="structure-section" value="ACCOUNT STRUCTURE" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=14;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Account Entity -->
+        <mxCell id="account-entity" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="430" width="400" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="account-entity-header" value="ACCOUNT" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;fontStyle=1;fontSize=12;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="430" width="400" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="account-fields" value="Account ID (UUID)&#xa;Account Number: 1234-5678-9012-3456&#xa;IBAN: US12 BANK 1234 5678 9012&#xa;CIF Number: CIF-2024-000001&#xa;Product Code: PREMIUM_SAVINGS&#xa;Branch Code: NYC001&#xa;Currency: USD&#xa;Status: ACTIVE&#xa;Opened Date: 2024-01-15&#xa;Last Transaction: 2024-01-15" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="80" y="455" width="200" height="175" as="geometry" />
+        </mxCell>
+
+        <!-- Balance Types -->
+        <mxCell id="balance-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="460" width="190" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="balance-header" value="BALANCES" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;fontStyle=1;fontSize=10;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="460" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="balance-content" value="Ledger: $15,000.00&#xa;Available: $14,500.00&#xa;Hold: $500.00&#xa;Minimum: $1,000.00&#xa;Overdraft Limit: $0.00&#xa;Accrued Interest: $12.50" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="280" y="480" width="190" height="110" as="geometry" />
+        </mxCell>
+
+        <!-- Ownership -->
+        <mxCell id="ownership-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="430" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ownership-header" value="OWNERSHIP" style="text;html=1;strokeColor=none;fillColor=#9673a6;align=center;verticalAlign=middle;fontStyle=1;fontSize=10;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="430" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ownership-content" value="Type: PRIMARY | JOINT | AUTH&#xa;CIF: CIF-2024-000001&#xa;Percentage: 100%&#xa;Signing Authority: SINGLE&#xa;Effective From: 2024-01-15" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="500" y="450" width="200" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Blocks/Holds -->
+        <mxCell id="blocks-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="540" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="blocks-header" value="BLOCKS &amp; HOLDS" style="text;html=1;strokeColor=none;fillColor=#b85450;align=center;verticalAlign=middle;fontStyle=1;fontSize=10;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="540" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="blocks-content" value="Type: DEBIT | CREDIT | FULL | LIEN&#xa;Amount: $500.00&#xa;Reason: Pending transaction&#xa;Placed By: SYSTEM&#xa;Expires: 2024-01-20" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="500" y="560" width="200" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Interest Config -->
+        <mxCell id="interest-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="430" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="interest-header" value="INTEREST CONFIG" style="text;html=1;strokeColor=none;fillColor=#d6b656;align=center;verticalAlign=middle;fontStyle=1;fontSize=10;fontColor=#000000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="430" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="interest-content" value="Rate Type: TIERED&#xa;Current Rate: 4.50%&#xa;Calculation: DAILY_BALANCE&#xa;Day Count: ACT/365&#xa;Credit Frequency: MONTHLY" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="720" y="450" width="200" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Mandates -->
+        <mxCell id="mandates-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="540" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mandates-header" value="MANDATES &amp; LIMITS" style="text;html=1;strokeColor=none;fillColor=#d6b656;align=center;verticalAlign=middle;fontStyle=1;fontSize=10;fontColor=#000000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="540" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mandates-content" value="Daily Limit: $10,000&#xa;Per-Txn Limit: $5,000&#xa;Monthly Limit: $50,000&#xa;Signing Rule: SINGLE | JOINT&#xa;Approval Threshold: $25,000" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="720" y="560" width="200" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Account Number Format -->
+        <mxCell id="format-section" value="ACCOUNT NUMBER FORMAT" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=14;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="940" y="430" width="250" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="format-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="460" width="280" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="format-content" value="Branch (4)  Product (2)  Sequence (6)  Check (1)&#xa;  1234    -    56     -   789012   -    3&#xa;&#xa;IBAN Format:&#xa;Country | Check | Bank | Account&#xa;   US   |  12   | BANK | 1234567890123456&#xa;&#xa;&#xa;Check Digit: Luhn/Modulus algorithm&#xa;validates account number integrity" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingTop=10;fontSize=10;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="940" y="460" width="280" height="170" as="geometry" />
+        </mxCell>
+
+        <!-- Legend -->
+        <mxCell id="legend" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="660" width="500" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-title" value="Legend:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="665" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l-deposit" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="90" y="690" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="l-deposit-text" value="Deposits" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="110" y="688" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l-loan" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="180" y="690" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="l-loan-text" value="Loans" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="200" y="688" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l-internal" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="260" y="690" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="l-internal-text" value="Internal" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="280" y="688" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l-card" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="340" y="690" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="l-card-text" value="Cards" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="360" y="688" width="50" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

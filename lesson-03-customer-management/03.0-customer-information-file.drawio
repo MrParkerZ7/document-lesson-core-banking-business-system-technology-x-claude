@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Claude" version="22.1.0" type="device">
+  <diagram id="cif-structure" name="Customer Information File Structure">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Customer Information File (CIF) Structure" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="400" y="20" width="450" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Main CIF Entity -->
+        <mxCell id="cif-main" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="80" width="350" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="cif-header" value="CUSTOMER (CIF)" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;fontStyle=1;fontSize=14;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="80" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cif-content" value="CIF Number: CIF-2024-000001&#xa;Customer Type: INDIVIDUAL | CORPORATE&#xa;Status: ACTIVE | DORMANT | BLOCKED&#xa;Created Date: 2024-01-15&#xa;Last Updated: 2024-01-15&#xa;Risk Rating: LOW | MEDIUM | HIGH&#xa;Segment: RETAIL | PREMIUM | PRIVATE&#xa;Relationship Manager: RM-001" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="450" y="110" width="350" height="170" as="geometry" />
+        </mxCell>
+
+        <!-- Individual Details -->
+        <mxCell id="individual" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="100" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="individual-header" value="INDIVIDUAL DETAILS" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;fontStyle=1;fontSize=12;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="100" width="300" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="individual-content" value="Title: Mr/Mrs/Ms/Dr&#xa;First Name: John&#xa;Middle Name: William&#xa;Last Name: Smith&#xa;Date of Birth: 1985-03-15&#xa;Gender: Male/Female&#xa;Nationality: USA&#xa;Tax ID (SSN): XXX-XX-1234" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="80" y="125" width="300" height="125" as="geometry" />
+        </mxCell>
+
+        <!-- Corporate Details -->
+        <mxCell id="corporate" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="100" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="corporate-header" value="CORPORATE DETAILS" style="text;html=1;strokeColor=none;fillColor=#d79b00;align=center;verticalAlign=middle;fontStyle=1;fontSize=12;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="100" width="300" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="corporate-content" value="Legal Name: ACME Corp Inc.&#xa;Trading Name: ACME&#xa;Registration Number: 12345678&#xa;Registration Country: USA&#xa;Incorporation Date: 2010-05-20&#xa;Legal Structure: LLC/Corp&#xa;Industry Code: 5411 (NAICS)&#xa;Tax ID (EIN): XX-XXXXXXX" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="870" y="125" width="300" height="125" as="geometry" />
+        </mxCell>
+
+        <!-- Connectors to CIF -->
+        <mxCell id="conn1" value="OR" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.3;entryDx=0;entryDy=0;curved=1;strokeWidth=2;strokeColor=#82b366;" edge="1" parent="1" source="individual" target="cif-main">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="conn2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.3;entryDx=0;entryDy=0;curved=1;strokeWidth=2;strokeColor=#d79b00;" edge="1" parent="1" source="corporate" target="cif-main">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Sub-entities row -->
+        <!-- Contact Details -->
+        <mxCell id="contacts" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="contacts-header" value="CONTACT DETAILS" style="text;html=1;strokeColor=none;fillColor=#9673a6;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="contacts-content" value="Type: EMAIL | MOBILE | PHONE&#xa;Value: john@email.com&#xa;Is Primary: Yes/No&#xa;Is Verified: Yes/No&#xa;Verified Date: 2024-01-15&#xa;Consent Marketing: Yes/No" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="80" y="342" width="220" height="118" as="geometry" />
+        </mxCell>
+
+        <!-- Addresses -->
+        <mxCell id="addresses" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="addresses-header" value="ADDRESSES" style="text;html=1;strokeColor=none;fillColor=#9673a6;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="addresses-content" value="Type: RESIDENTIAL | MAILING | WORK&#xa;Line 1: 123 Main Street&#xa;Line 2: Apt 4B&#xa;City: New York&#xa;State: NY&#xa;Postal Code: 10001&#xa;Country: USA&#xa;Is Primary: Yes/No" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="320" y="342" width="220" height="118" as="geometry" />
+        </mxCell>
+
+        <!-- Identity Documents -->
+        <mxCell id="identity" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="320" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="identity-header" value="IDENTITY DOCUMENTS" style="text;html=1;strokeColor=none;fillColor=#9673a6;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="320" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="identity-content" value="Type: PASSPORT | DL | NATIONAL_ID&#xa;Document Number: AB1234567&#xa;Issuing Country: USA&#xa;Issue Date: 2020-01-15&#xa;Expiry Date: 2030-01-15&#xa;Verified: Yes/No&#xa;Document Image: [stored]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="560" y="342" width="220" height="118" as="geometry" />
+        </mxCell>
+
+        <!-- KYC Records -->
+        <mxCell id="kyc" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="320" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="kyc-header" value="KYC RECORDS" style="text;html=1;strokeColor=none;fillColor=#9673a6;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="320" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="kyc-content" value="KYC Level: BASIC | STANDARD | ENHANCED&#xa;Status: PENDING | VERIFIED | EXPIRED&#xa;Verified Date: 2024-01-15&#xa;Verified By: KYC-OFFICER-001&#xa;Expiry Date: 2025-01-15&#xa;Risk Rating: LOW | MEDIUM | HIGH&#xa;Next Review: 2024-07-15" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="800" y="342" width="220" height="118" as="geometry" />
+        </mxCell>
+
+        <!-- Employment -->
+        <mxCell id="employment" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="320" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="employment-header" value="EMPLOYMENT" style="text;html=1;strokeColor=none;fillColor=#d6b656;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="320" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="employment-content" value="Status: EMPLOYED | SELF_EMP&#xa;Employer: ACME Corp&#xa;Designation: Manager&#xa;Industry: Technology&#xa;Annual Income: $100,000&#xa;Employment Start: 2020-01&#xa;Source of Funds: SALARY" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="342" width="200" height="118" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows from CIF to sub-entities -->
+        <mxCell id="arr-contacts" value="1:N" style="endArrow=classic;html=1;rounded=0;exitX=0.2;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;strokeWidth=1;strokeColor=#9673a6;" edge="1" parent="1" source="cif-main" target="contacts">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arr-addresses" value="1:N" style="endArrow=classic;html=1;rounded=0;exitX=0.4;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;strokeWidth=1;strokeColor=#9673a6;" edge="1" parent="1" source="cif-main" target="addresses">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arr-identity" value="1:N" style="endArrow=classic;html=1;rounded=0;exitX=0.6;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;strokeWidth=1;strokeColor=#9673a6;" edge="1" parent="1" source="cif-main" target="identity">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arr-kyc" value="1:N" style="endArrow=classic;html=1;rounded=0;exitX=0.8;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;strokeWidth=1;strokeColor=#9673a6;" edge="1" parent="1" source="cif-main" target="kyc">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arr-employment" value="1:N" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.8;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;strokeWidth=1;strokeColor=#d6b656;" edge="1" parent="1" source="cif-main" target="employment">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Related Entities Row -->
+        <!-- Accounts -->
+        <mxCell id="accounts" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="510" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="accounts-header" value="LINKED ACCOUNTS" style="text;html=1;strokeColor=none;fillColor=#b85450;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="510" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="accounts-content" value="• Savings Account: 1234567890&#xa;• Current Account: 0987654321&#xa;• Term Deposit: TD-2024-001&#xa;• Loan Account: LN-2024-001&#xa;• Credit Card: 4111-XXXX-XXXX" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="80" y="535" width="220" height="95" as="geometry" />
+        </mxCell>
+
+        <!-- Relationships -->
+        <mxCell id="relationships" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="510" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="relationships-header" value="RELATIONSHIPS" style="text;html=1;strokeColor=none;fillColor=#b85450;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="510" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="relationships-content" value="Related CIF: CIF-2024-000002&#xa;Relationship: SPOUSE | PARENT&#xa;Joint Account: Yes/No&#xa;Power of Attorney: Yes/No&#xa;Authorized Signatory: Yes/No" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="320" y="535" width="220" height="95" as="geometry" />
+        </mxCell>
+
+        <!-- Consents -->
+        <mxCell id="consents" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="510" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="consents-header" value="CONSENTS &amp; PREFERENCES" style="text;html=1;strokeColor=none;fillColor=#b85450;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="510" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="consents-content" value="Marketing Email: Opted In&#xa;Marketing SMS: Opted Out&#xa;Data Sharing: Consented&#xa;Open Banking: Authorized&#xa;Statement Preference: Email&#xa;Language: English" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="560" y="535" width="220" height="95" as="geometry" />
+        </mxCell>
+
+        <!-- Risk Profile -->
+        <mxCell id="risk" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="510" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="risk-header" value="RISK PROFILE" style="text;html=1;strokeColor=none;fillColor=#b85450;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="510" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="risk-content" value="Overall Risk: LOW&#xa;PEP Status: No&#xa;Sanctions Match: No&#xa;Adverse Media: No&#xa;Transaction Risk: Normal&#xa;Country Risk: Low" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="800" y="535" width="220" height="95" as="geometry" />
+        </mxCell>
+
+        <!-- Audit Trail -->
+        <mxCell id="audit-trail" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="510" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="audit-header" value="AUDIT TRAIL" style="text;html=1;strokeColor=none;fillColor=#b85450;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="510" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="audit-content" value="Created: 2024-01-15 09:00&#xa;Created By: BRANCH-USER-01&#xa;Last Modified: 2024-01-15&#xa;Modified By: SYSTEM&#xa;Version: 5&#xa;Change Log: [linked]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="535" width="200" height="95" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows to related entities -->
+        <mxCell id="arr-accounts" value="1:N" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;strokeWidth=1;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="230" as="sourcePoint" />
+            <mxPoint x="190" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Legend -->
+        <mxCell id="legend" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="660" width="600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-title" value="Legend: 1:N = One-to-Many relationship" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="90" y="665" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-items" value="&#xa;Core CIF Entity     Customer Sub-entities     Individual/Corporate Details     Related Banking Data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="90" y="685" width="580" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="90" y="695" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="l2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="210" y="695" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="l3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="370" y="695" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="l4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="545" y="695" width="15" height="15" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

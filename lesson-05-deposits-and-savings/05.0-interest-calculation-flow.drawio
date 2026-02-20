@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Claude" version="22.1.0" type="device">
+  <diagram id="interest-flow" name="Interest Calculation Flow">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Deposit Interest Calculation &amp; Accrual Flow" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="380" y="20" width="500" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Daily Processing Flow -->
+        <mxCell id="daily-section" value="DAILY INTEREST ACCRUAL PROCESS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=14;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="80" y="70" width="350" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Step 1 -->
+        <mxCell id="step1" value="Get EOD&#xa;Balance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="110" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow -->
+        <mxCell id="arr1" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#666666;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="140" as="sourcePoint" />
+            <mxPoint x="220" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Step 2 -->
+        <mxCell id="step2" value="Get Interest&#xa;Rate Tier" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="110" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow -->
+        <mxCell id="arr2" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#666666;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="140" as="sourcePoint" />
+            <mxPoint x="360" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Step 3 -->
+        <mxCell id="step3" value="Calculate&#xa;Daily Rate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="110" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow -->
+        <mxCell id="arr3" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#666666;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="140" as="sourcePoint" />
+            <mxPoint x="500" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Step 4 -->
+        <mxCell id="step4" value="Calculate&#xa;Daily Accrual" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="110" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow -->
+        <mxCell id="arr4" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#666666;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="140" as="sourcePoint" />
+            <mxPoint x="640" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Step 5 -->
+        <mxCell id="step5" value="Post to&#xa;Accrual Ledger" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="110" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow -->
+        <mxCell id="arr5" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#666666;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="140" as="sourcePoint" />
+            <mxPoint x="780" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Step 6 -->
+        <mxCell id="step6" value="Update&#xa;Account" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="110" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Formulas Section -->
+        <mxCell id="formula-section" value="INTEREST CALCULATION FORMULAS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=14;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="350" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Simple Interest -->
+        <mxCell id="simple-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="235" width="350" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="simple-header" value="SIMPLE INTEREST" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;fontStyle=1;fontSize=12;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="235" width="350" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="simple-formula" value="Interest = Principal × Rate × Time&#xa;&#xa;Daily Accrual = Balance × (Annual Rate / Days in Year)&#xa;&#xa;Example: $50,000 × (4.5% / 365) = $6.16 per day" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;fontSize=11;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="80" y="260" width="350" height="95" as="geometry" />
+        </mxCell>
+
+        <!-- Compound Interest -->
+        <mxCell id="compound-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="235" width="400" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="compound-header" value="COMPOUND INTEREST" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;fontStyle=1;fontSize=12;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="235" width="400" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="compound-formula" value="A = P × (1 + r/n)^(n×t)&#xa;&#xa;Where: P = Principal, r = Annual Rate, n = Compounding freq, t = Time&#xa;&#xa;Example: $50,000 × (1 + 0.045/12)^12 = $52,295.05 after 1 year" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;fontSize=11;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="450" y="260" width="400" height="95" as="geometry" />
+        </mxCell>
+
+        <!-- Day Count Conventions -->
+        <mxCell id="daycount-section" value="DAY COUNT CONVENTIONS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=14;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="80" y="375" width="350" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="dc-table" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="405" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="dc-header" value="Convention       Days/Year    Use Case&#xa;─────────────────────────────────────────────&#xa;ACT/360          Actual/360   US Money Market&#xa;ACT/365          Actual/365   UK, Australia&#xa;ACT/ACT          Actual/Actual Bonds, some deposits&#xa;30/360           30-day/360   US Corporate Bonds&#xa;30E/360          European     European Markets" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingTop=10;fontSize=11;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="80" y="405" width="450" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- Interest Rate Tiers -->
+        <mxCell id="tiers-section" value="TIERED INTEREST RATES" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=14;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="560" y="375" width="350" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tiers-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="405" width="290" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="tiers-content" value="Balance Range         Rate&#xa;─────────────────────────────&#xa;$0 - $9,999           2.00%&#xa;$10,000 - $49,999     3.00%&#xa;$50,000 - $99,999     4.00%&#xa;$100,000+             4.50%" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingTop=10;fontSize=11;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="560" y="405" width="290" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- Monthly Capitalization Flow -->
+        <mxCell id="monthly-section" value="MONTHLY INTEREST CAPITALIZATION" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=14;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="80" y="565" width="350" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Monthly flow -->
+        <mxCell id="m-step1" value="Sum Daily&#xa;Accruals" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="600" width="120" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="m-arr1" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#666666;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="625" as="sourcePoint" />
+            <mxPoint x="240" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="m-step2" value="Apply&#xa;Withholding Tax" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="600" width="120" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="m-arr2" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#666666;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="625" as="sourcePoint" />
+            <mxPoint x="400" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="m-step3" value="Calculate&#xa;Net Interest" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="600" width="120" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="m-arr3" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#666666;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="625" as="sourcePoint" />
+            <mxPoint x="560" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="m-step4" value="Credit to&#xa;Account" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="600" width="120" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="m-arr4" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#666666;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="625" as="sourcePoint" />
+            <mxPoint x="720" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="m-step5" value="Post GL&#xa;Entries" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="600" width="120" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- GL Entries Example -->
+        <mxCell id="gl-section" value="GL POSTING EXAMPLE" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=14;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="80" y="670" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="gl-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="700" width="450" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gl-content" value="Interest Capitalization Journal Entry:&#xa;&#xa;DR  Interest Expense (P&amp;L)      $187.50&#xa;    CR  Customer Deposit (Liability)    $168.75&#xa;    CR  Tax Payable (Liability)         $18.75&#xa;&#xa;(Assumes 10% withholding tax)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingTop=10;fontSize=11;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="80" y="700" width="450" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Term Deposit Maturity -->
+        <mxCell id="td-section" value="TERM DEPOSIT MATURITY" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=14;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="560" y="670" width="250" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="td-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="700" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="td-content" value="Maturity Instructions:&#xa;&#xa;• ROLLOVER_PRINCIPAL_INTEREST&#xa;• ROLLOVER_PRINCIPAL_ONLY&#xa;• CREDIT_TO_ACCOUNT&#xa;• HOLD_FOR_INSTRUCTION" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingTop=10;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="560" y="700" width="300" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
