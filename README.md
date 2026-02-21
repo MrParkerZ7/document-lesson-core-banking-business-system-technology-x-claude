@@ -25,67 +25,89 @@ This curriculum provides a structured learning path for understanding how modern
 
 ## Repository Structure
 
-```
-lesson-01-introduction-to-core-banking/
-├── README.md
-├── 01.0-core-banking-overview.drawio
-└── 01.0-core-banking-overview.png
+### Lesson 01 - Introduction to Core Banking
+├── [README.md](./lesson-01-introduction-to-core-banking/README.md)
+├── [01.0-core-banking-overview.drawio](./lesson-01-introduction-to-core-banking/01.0-core-banking-overview.drawio)
+└── [01.0-core-banking-overview.png](./lesson-01-introduction-to-core-banking/01.0-core-banking-overview.png)
 
-lesson-02-core-banking-architecture/
-├── README.md
-├── 02.0-layered-architecture.drawio
-└── 02.0-layered-architecture.png
+![Core Banking Overview](./lesson-01-introduction-to-core-banking/01.0-core-banking-overview.png)
 
-lesson-03-customer-management/
-├── README.md
-├── 03.0-customer-information-file.drawio
-└── 03.0-customer-information-file.png
+### Lesson 02 - Core Banking Architecture
+├── [README.md](./lesson-02-core-banking-architecture/README.md)
+├── [02.0-layered-architecture.drawio](./lesson-02-core-banking-architecture/02.0-layered-architecture.drawio)
+└── [02.0-layered-architecture.png](./lesson-02-core-banking-architecture/02.0-layered-architecture.png)
 
-lesson-04-account-management/
-├── README.md
-├── 04.0-account-structure.drawio
-└── 04.0-account-structure.png
+![Layered Architecture](./lesson-02-core-banking-architecture/02.0-layered-architecture.png)
 
-lesson-05-deposits-and-savings/
-├── README.md
-├── 05.0-interest-calculation-flow.drawio
-└── 05.0-interest-calculation-flow.png
+### Lesson 03 - Customer Management
+├── [README.md](./lesson-03-customer-management/README.md)
+├── [03.0-customer-information-file.drawio](./lesson-03-customer-management/03.0-customer-information-file.drawio)
+└── [03.0-customer-information-file.png](./lesson-03-customer-management/03.0-customer-information-file.png)
 
-lesson-06-loans-and-credit/
-├── README.md
-├── 06.0-loan-lifecycle.drawio
-└── 06.0-loan-lifecycle.png
+![Customer Information File](./lesson-03-customer-management/03.0-customer-information-file.png)
 
-lesson-07-payments-and-transfers/
-├── README.md
-├── 07.0-payment-flow.drawio
-└── 07.0-payment-flow.png
+### Lesson 04 - Account Management
+├── [README.md](./lesson-04-account-management/README.md)
+├── [04.0-account-structure.drawio](./lesson-04-account-management/04.0-account-structure.drawio)
+└── [04.0-account-structure.png](./lesson-04-account-management/04.0-account-structure.png)
 
-lesson-08-general-ledger-and-accounting/
-├── README.md
-├── 08.0-gl-posting-flow.drawio
-└── 08.0-gl-posting-flow.png
+![Account Structure](./lesson-04-account-management/04.0-account-structure.png)
 
-lesson-09-transaction-processing/
-├── README.md
-├── 09.0-transaction-processing.drawio
-└── 09.0-transaction-processing.png
+### Lesson 05 - Deposits & Savings
+├── [README.md](./lesson-05-deposits-and-savings/README.md)
+├── [05.0-interest-calculation-flow.drawio](./lesson-05-deposits-and-savings/05.0-interest-calculation-flow.drawio)
+└── [05.0-interest-calculation-flow.png](./lesson-05-deposits-and-savings/05.0-interest-calculation-flow.png)
 
-lesson-10-integration-and-apis/
-├── README.md
-├── 10.0-api-architecture.drawio
-└── 10.0-api-architecture.png
+![Interest Calculation Flow](./lesson-05-deposits-and-savings/05.0-interest-calculation-flow.png)
 
-lesson-11-security-and-compliance/
-├── README.md
-├── 11.0-security-architecture.drawio
-└── 11.0-security-architecture.png
+### Lesson 06 - Loans & Credit
+├── [README.md](./lesson-06-loans-and-credit/README.md)
+├── [06.0-loan-lifecycle.drawio](./lesson-06-loans-and-credit/06.0-loan-lifecycle.drawio)
+└── [06.0-loan-lifecycle.png](./lesson-06-loans-and-credit/06.0-loan-lifecycle.png)
 
-lesson-12-data-management/
-├── README.md
-├── 12.0-data-architecture.drawio
-└── 12.0-data-architecture.png
-```
+![Loan Lifecycle](./lesson-06-loans-and-credit/06.0-loan-lifecycle.png)
+
+### Lesson 07 - Payments & Transfers
+├── [README.md](./lesson-07-payments-and-transfers/README.md)
+├── [07.0-payment-flow.drawio](./lesson-07-payments-and-transfers/07.0-payment-flow.drawio)
+└── [07.0-payment-flow.png](./lesson-07-payments-and-transfers/07.0-payment-flow.png)
+
+![Payment Flow](./lesson-07-payments-and-transfers/07.0-payment-flow.png)
+
+### Lesson 08 - General Ledger & Accounting
+├── [README.md](./lesson-08-general-ledger-and-accounting/README.md)
+├── [08.0-gl-posting-flow.drawio](./lesson-08-general-ledger-and-accounting/08.0-gl-posting-flow.drawio)
+└── [08.0-gl-posting-flow.png](./lesson-08-general-ledger-and-accounting/08.0-gl-posting-flow.png)
+
+![GL Posting Flow](./lesson-08-general-ledger-and-accounting/08.0-gl-posting-flow.png)
+
+### Lesson 09 - Transaction Processing
+├── [README.md](./lesson-09-transaction-processing/README.md)
+├── [09.0-transaction-processing.drawio](./lesson-09-transaction-processing/09.0-transaction-processing.drawio)
+└── [09.0-transaction-processing.png](./lesson-09-transaction-processing/09.0-transaction-processing.png)
+
+![Transaction Processing](./lesson-09-transaction-processing/09.0-transaction-processing.png)
+
+### Lesson 10 - Integration & APIs
+├── [README.md](./lesson-10-integration-and-apis/README.md)
+├── [10.0-api-architecture.drawio](./lesson-10-integration-and-apis/10.0-api-architecture.drawio)
+└── [10.0-api-architecture.png](./lesson-10-integration-and-apis/10.0-api-architecture.png)
+
+![API Architecture](./lesson-10-integration-and-apis/10.0-api-architecture.png)
+
+### Lesson 11 - Security & Compliance
+├── [README.md](./lesson-11-security-and-compliance/README.md)
+├── [11.0-security-architecture.drawio](./lesson-11-security-and-compliance/11.0-security-architecture.drawio)
+└── [11.0-security-architecture.png](./lesson-11-security-and-compliance/11.0-security-architecture.png)
+
+![Security Architecture](./lesson-11-security-and-compliance/11.0-security-architecture.png)
+
+### Lesson 12 - Data Management
+├── [README.md](./lesson-12-data-management/README.md)
+├── [12.0-data-architecture.drawio](./lesson-12-data-management/12.0-data-architecture.drawio)
+└── [12.0-data-architecture.png](./lesson-12-data-management/12.0-data-architecture.png)
+
+![Data Architecture](./lesson-12-data-management/12.0-data-architecture.png)
 
 ## Prerequisites
 
