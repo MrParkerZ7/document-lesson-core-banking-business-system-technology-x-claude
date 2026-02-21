@@ -16,7 +16,7 @@
           <mxGeometry x="80" y="70" width="300" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="rt-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#6c8ebf;shadow=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="rt-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#6c8ebf;shadow=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="100" width="1120" height="100" as="geometry" />
         </mxCell>
 
@@ -100,7 +100,7 @@
           <mxGeometry x="80" y="220" width="200" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="states-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;" vertex="1" parent="1">
+        <mxCell id="states-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="250" width="500" height="150" as="geometry" />
         </mxCell>
 
@@ -190,7 +190,7 @@
           <mxGeometry x="620" y="220" width="300" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="eod-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff8e1;strokeColor=#d6b656;shadow=1;" vertex="1" parent="1">
+        <mxCell id="eod-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff8e1;strokeColor=#d6b656;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="250" width="580" height="150" as="geometry" />
         </mxCell>
 
@@ -203,7 +203,7 @@
           <mxGeometry x="80" y="420" width="400" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="saga-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
+        <mxCell id="saga-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="450" width="700" height="150" as="geometry" />
         </mxCell>
 
@@ -296,7 +296,7 @@
           <mxGeometry x="820" y="420" width="300" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="batch-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#9673a6;shadow=1;" vertex="1" parent="1">
+        <mxCell id="batch-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#9673a6;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="820" y="450" width="380" height="150" as="geometry" />
         </mxCell>
 
@@ -352,7 +352,7 @@
           <mxGeometry x="80" y="620" width="350" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="mode-rt" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+        <mxCell id="mode-rt" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="650" width="250" height="100" as="geometry" />
         </mxCell>
         <mxCell id="mode-rt-header" value="REAL-TIME (OLTP)" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
@@ -362,7 +362,7 @@
           <mxGeometry x="80" y="670" width="250" height="80" as="geometry" />
         </mxCell>
 
-        <mxCell id="mode-batch" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;" vertex="1" parent="1">
+        <mxCell id="mode-batch" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="650" width="250" height="100" as="geometry" />
         </mxCell>
         <mxCell id="mode-batch-header" value="BATCH PROCESSING" style="text;html=1;strokeColor=none;fillColor=#9673a6;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
@@ -372,7 +372,7 @@
           <mxGeometry x="350" y="670" width="250" height="80" as="geometry" />
         </mxCell>
 
-        <mxCell id="mode-event" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
+        <mxCell id="mode-event" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="650" width="250" height="100" as="geometry" />
         </mxCell>
         <mxCell id="mode-event-header" value="EVENT-DRIVEN" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
@@ -382,7 +382,7 @@
           <mxGeometry x="620" y="670" width="250" height="80" as="geometry" />
         </mxCell>
 
-        <mxCell id="mode-near-rt" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" vertex="1" parent="1">
+        <mxCell id="mode-near-rt" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="890" y="650" width="250" height="100" as="geometry" />
         </mxCell>
         <mxCell id="mode-near-rt-header" value="NEAR REAL-TIME" style="text;html=1;strokeColor=none;fillColor=#d6b656;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;fontColor=#000000;rounded=1;" vertex="1" parent="1">

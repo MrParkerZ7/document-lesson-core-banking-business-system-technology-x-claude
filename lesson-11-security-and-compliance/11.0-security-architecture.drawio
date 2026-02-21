@@ -17,7 +17,7 @@
         </mxCell>
 
         <!-- Layer 1: Perimeter -->
-        <mxCell id="layer1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;" vertex="1" parent="1">
+        <mxCell id="layer1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="100" width="1120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="layer1-label" value="PERIMETER SECURITY" style="text;html=1;strokeColor=none;fillColor=#b85450;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
@@ -46,7 +46,7 @@
         </mxCell>
 
         <!-- Layer 2: Network -->
-        <mxCell id="layer2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;" vertex="1" parent="1">
+        <mxCell id="layer2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="180" width="1040" height="70" as="geometry" />
         </mxCell>
         <mxCell id="layer2-label" value="NETWORK SECURITY" style="text;html=1;strokeColor=none;fillColor=#d79b00;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
@@ -72,7 +72,7 @@
         </mxCell>
 
         <!-- Layer 3: Application -->
-        <mxCell id="layer3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" vertex="1" parent="1">
+        <mxCell id="layer3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="260" width="960" height="70" as="geometry" />
         </mxCell>
         <mxCell id="layer3-label" value="APPLICATION SECURITY" style="text;html=1;strokeColor=none;fillColor=#d6b656;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;fontColor=#000000;rounded=1;" vertex="1" parent="1">
@@ -98,7 +98,7 @@
         </mxCell>
 
         <!-- Layer 4: Data -->
-        <mxCell id="layer4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
+        <mxCell id="layer4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="340" width="880" height="70" as="geometry" />
         </mxCell>
         <mxCell id="layer4-label" value="DATA SECURITY" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
@@ -124,7 +124,7 @@
         </mxCell>
 
         <!-- Layer 5: Operational -->
-        <mxCell id="layer5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+        <mxCell id="layer5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="420" width="800" height="70" as="geometry" />
         </mxCell>
         <mxCell id="layer5-label" value="OPERATIONAL SECURITY" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
@@ -156,7 +156,7 @@
           <mxGeometry x="80" y="600" width="250" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="auth-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;" vertex="1" parent="1">
+        <mxCell id="auth-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="630" width="380" height="140" as="geometry" />
         </mxCell>
 
@@ -190,7 +190,7 @@
           <mxGeometry x="500" y="600" width="350" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="rbac-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;" vertex="1" parent="1">
+        <mxCell id="rbac-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="630" width="400" height="140" as="geometry" />
         </mxCell>
 
@@ -240,7 +240,7 @@
           <mxGeometry x="940" y="600" width="200" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="compliance-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;" vertex="1" parent="1">
+        <mxCell id="compliance-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="940" y="630" width="260" height="140" as="geometry" />
         </mxCell>
 

@@ -17,7 +17,7 @@
         </mxCell>
 
         <!-- Deposit Accounts - Green Data/Storage -->
-        <mxCell id="deposit-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
+        <mxCell id="deposit-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="100" width="280" height="120" as="geometry" />
         </mxCell>
         <mxCell id="deposit-header" value="DEPOSIT ACCOUNTS (Data)" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
@@ -40,7 +40,7 @@
         </mxCell>
 
         <!-- Loan Accounts - Blue Services (Loan Service) -->
-        <mxCell id="loan-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+        <mxCell id="loan-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="100" width="280" height="120" as="geometry" />
         </mxCell>
         <mxCell id="loan-header" value="LOAN ACCOUNTS (Service)" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
@@ -63,7 +63,7 @@
         </mxCell>
 
         <!-- Internal Accounts - Gray Infrastructure -->
-        <mxCell id="internal-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;" vertex="1" parent="1">
+        <mxCell id="internal-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="100" width="260" height="120" as="geometry" />
         </mxCell>
         <mxCell id="internal-header" value="INTERNAL (Infrastructure)" style="text;html=1;strokeColor=none;fillColor=#666666;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
@@ -86,7 +86,7 @@
         </mxCell>
 
         <!-- External Integrations - Orange -->
-        <mxCell id="card-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;" vertex="1" parent="1">
+        <mxCell id="card-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="960" y="100" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="card-header" value="CARD (External)" style="text;html=1;strokeColor=none;fillColor=#d79b00;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
@@ -175,7 +175,7 @@
           <mxGeometry x="80" y="390" width="200" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="account-entity" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+        <mxCell id="account-entity" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="420" width="380" height="180" as="geometry" />
         </mxCell>
         <mxCell id="account-entity-header" value="ACCOUNT (Service)" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;fontStyle=1;fontSize=12;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
@@ -186,7 +186,7 @@
         </mxCell>
 
         <!-- Balance Types - Green Data -->
-        <mxCell id="balance-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
+        <mxCell id="balance-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="450" width="180" height="110" as="geometry" />
         </mxCell>
         <mxCell id="balance-header" value="BALANCES (Data)" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;fontStyle=1;fontSize=10;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
@@ -197,7 +197,7 @@
         </mxCell>
 
         <!-- Ownership - Blue Services -->
-        <mxCell id="ownership-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+        <mxCell id="ownership-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="420" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ownership-header" value="OWNERSHIP" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;fontStyle=1;fontSize=10;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
@@ -208,7 +208,7 @@
         </mxCell>
 
         <!-- Blocks/Holds - Purple Security -->
-        <mxCell id="blocks-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;" vertex="1" parent="1">
+        <mxCell id="blocks-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="520" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="blocks-header" value="BLOCKS (Security)" style="text;html=1;strokeColor=none;fillColor=#9673a6;align=center;verticalAlign=middle;fontStyle=1;fontSize=10;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
@@ -219,7 +219,7 @@
         </mxCell>
 
         <!-- Interest Config - Blue Services -->
-        <mxCell id="interest-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+        <mxCell id="interest-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="420" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="interest-header" value="INTEREST CONFIG" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;fontStyle=1;fontSize=10;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
@@ -230,7 +230,7 @@
         </mxCell>
 
         <!-- Mandates - Purple Security -->
-        <mxCell id="mandates-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;" vertex="1" parent="1">
+        <mxCell id="mandates-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="520" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mandates-header" value="LIMITS (Security)" style="text;html=1;strokeColor=none;fillColor=#9673a6;align=center;verticalAlign=middle;fontStyle=1;fontSize=10;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
@@ -241,7 +241,7 @@
         </mxCell>
 
         <!-- Legend -->
-        <mxCell id="legend" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
+        <mxCell id="legend" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="880" y="420" width="280" height="180" as="geometry" />
         </mxCell>
         <mxCell id="legend-title" value="Color Legend:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=11;" vertex="1" parent="1">

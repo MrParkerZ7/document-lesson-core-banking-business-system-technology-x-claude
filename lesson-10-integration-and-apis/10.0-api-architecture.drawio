@@ -16,7 +16,7 @@
           <mxGeometry x="80" y="70" width="250" height="20" as="geometry" />
         </mxCell>
 
-        <mxCell id="tpp-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#9673a6;shadow=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="tpp-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#9673a6;shadow=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="95" width="1120" height="80" as="geometry" />
         </mxCell>
 
@@ -53,7 +53,7 @@
           <mxGeometry x="80" y="185" width="200" height="20" as="geometry" />
         </mxCell>
 
-        <mxCell id="gateway-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+        <mxCell id="gateway-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="210" width="1120" height="80" as="geometry" />
         </mxCell>
 
@@ -98,7 +98,7 @@
           <mxGeometry x="80" y="300" width="200" height="20" as="geometry" />
         </mxCell>
 
-        <mxCell id="consent-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#d79b00;shadow=1;" vertex="1" parent="1">
+        <mxCell id="consent-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#d79b00;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="325" width="1120" height="60" as="geometry" />
         </mxCell>
 
@@ -135,7 +135,7 @@
           <mxGeometry x="80" y="395" width="200" height="20" as="geometry" />
         </mxCell>
 
-        <mxCell id="api-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
+        <mxCell id="api-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="420" width="1120" height="120" as="geometry" />
         </mxCell>
 
@@ -174,7 +174,7 @@
           <mxGeometry x="80" y="560" width="350" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="oauth-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;" vertex="1" parent="1">
+        <mxCell id="oauth-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="590" width="600" height="180" as="geometry" />
         </mxCell>
 
@@ -250,7 +250,7 @@
           <mxGeometry x="720" y="560" width="250" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="sync-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+        <mxCell id="sync-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="590" width="230" height="90" as="geometry" />
         </mxCell>
         <mxCell id="sync-header" value="SYNCHRONOUS (Request-Response)" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;fontStyle=1;fontSize=10;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
@@ -260,7 +260,7 @@
           <mxGeometry x="720" y="610" width="230" height="70" as="geometry" />
         </mxCell>
 
-        <mxCell id="async-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
+        <mxCell id="async-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="970" y="590" width="230" height="90" as="geometry" />
         </mxCell>
         <mxCell id="async-header" value="ASYNCHRONOUS (Event-Driven)" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;fontStyle=1;fontSize=10;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
@@ -270,7 +270,7 @@
           <mxGeometry x="970" y="610" width="230" height="70" as="geometry" />
         </mxCell>
 
-        <mxCell id="file-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;" vertex="1" parent="1">
+        <mxCell id="file-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="690" width="230" height="80" as="geometry" />
         </mxCell>
         <mxCell id="file-header" value="BATCH (File-Based)" style="text;html=1;strokeColor=none;fillColor=#9673a6;align=center;verticalAlign=middle;fontStyle=1;fontSize=10;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
@@ -280,7 +280,7 @@
           <mxGeometry x="720" y="710" width="230" height="60" as="geometry" />
         </mxCell>
 
-        <mxCell id="stream-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;" vertex="1" parent="1">
+        <mxCell id="stream-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="970" y="690" width="230" height="80" as="geometry" />
         </mxCell>
         <mxCell id="stream-header" value="STREAMING (Real-Time)" style="text;html=1;strokeColor=none;fillColor=#d79b00;align=center;verticalAlign=middle;fontStyle=1;fontSize=10;fontColor=#000000;rounded=1;" vertex="1" parent="1">

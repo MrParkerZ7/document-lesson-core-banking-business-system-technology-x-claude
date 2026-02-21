@@ -16,7 +16,7 @@
           <mxGeometry x="80" y="70" width="250" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="eq-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+        <mxCell id="eq-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="100" width="700" height="70" as="geometry" />
         </mxCell>
 
@@ -45,7 +45,7 @@
           <mxGeometry x="80" y="190" width="350" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="coa-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;" vertex="1" parent="1">
+        <mxCell id="coa-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="220" width="600" height="200" as="geometry" />
         </mxCell>
 
@@ -78,7 +78,7 @@
           <mxGeometry x="700" y="190" width="350" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="de-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" vertex="1" parent="1">
+        <mxCell id="de-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="700" y="220" width="500" height="200" as="geometry" />
         </mxCell>
 
@@ -91,7 +91,7 @@
           <mxGeometry x="80" y="440" width="200" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="flow-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#82b366;shadow=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="flow-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#82b366;shadow=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="470" width="1120" height="100" as="geometry" />
         </mxCell>
 
@@ -181,7 +181,7 @@
           <mxGeometry x="80" y="590" width="300" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="je-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;" vertex="1" parent="1">
+        <mxCell id="je-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="620" width="500" height="180" as="geometry" />
         </mxCell>
         <mxCell id="je-content" value="Journal Entry: JNL-2024-000001&#xa;─────────────────────────────────────────────────────────────&#xa;Date: 2024-01-15    Value Date: 2024-01-15&#xa;Description: Loan Disbursement - LN2024000001&#xa;Source: LOAN_MODULE    Reference: LN2024000001&#xa;&#xa;Line  GL Code   GL Name              DR Amount    CR Amount&#xa;─────────────────────────────────────────────────────────────&#xa;1     1110      Consumer Loans       50,000.00&#xa;2     2010      Demand Deposits                   50,000.00&#xa;─────────────────────────────────────────────────────────────&#xa;                                     50,000.00    50,000.00&#xa;&#xa;Status: POSTED    Posted By: SYSTEM    Posted At: 2024-01-15 10:30:00" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingTop=10;fontSize=9;fontFamily=Courier New;" vertex="1" parent="1">
@@ -193,7 +193,7 @@
           <mxGeometry x="620" y="590" width="250" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="bal-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+        <mxCell id="bal-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="620" width="300" height="180" as="geometry" />
         </mxCell>
         <mxCell id="bal-content" value="Debit-Normal Accounts (Assets, Expenses):&#xa;Closing = Opening + Debits - Credits&#xa;&#xa;Credit-Normal Accounts (Liab, Equity, Income):&#xa;Closing = Opening - Debits + Credits&#xa;&#xa;Example: Deposit Account (Liability)&#xa;─────────────────────────────────────&#xa;Opening Balance:     $10,000 CR&#xa;+ Credits (Deposits): $5,000&#xa;- Debits (Withdrawals): $2,000&#xa;─────────────────────────────────────&#xa;Closing Balance:     $13,000 CR" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingTop=10;fontSize=9;fontFamily=Courier New;" vertex="1" parent="1">
@@ -205,7 +205,7 @@
           <mxGeometry x="960" y="590" width="200" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="tb-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
+        <mxCell id="tb-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="960" y="620" width="240" height="180" as="geometry" />
         </mxCell>
         <mxCell id="tb-content" value="Trial Balance - 2024-01-31&#xa;─────────────────────────────&#xa;Account           DR       CR&#xa;─────────────────────────────&#xa;Cash           50,000&#xa;Loans         200,000&#xa;Deposits                250,000&#xa;Capital                  50,000&#xa;Int. Income              10,000&#xa;Int. Expense   10,000&#xa;Fees Income               5,000&#xa;Op. Expense    55,000&#xa;─────────────────────────────&#xa;TOTAL        315,000  315,000&#xa;                    ✓ BALANCED" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;fontSize=9;fontFamily=Courier New;" vertex="1" parent="1">

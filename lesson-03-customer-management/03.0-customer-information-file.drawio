@@ -12,7 +12,7 @@
         </mxCell>
 
         <!-- Main CIF Entity - Blue for Services/APIs (customer service) -->
-        <mxCell id="cif-main" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+        <mxCell id="cif-main" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="80" width="350" height="180" as="geometry" />
         </mxCell>
         <mxCell id="cif-header" value="CUSTOMER (CIF) - Service" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;fontStyle=1;fontSize=14;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
@@ -23,7 +23,7 @@
         </mxCell>
 
         <!-- Individual Details - Green for Data -->
-        <mxCell id="individual" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
+        <mxCell id="individual" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="100" width="280" height="130" as="geometry" />
         </mxCell>
         <mxCell id="individual-header" value="INDIVIDUAL DATA" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;fontStyle=1;fontSize=12;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
@@ -34,7 +34,7 @@
         </mxCell>
 
         <!-- Corporate Details - Green for Data -->
-        <mxCell id="corporate" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
+        <mxCell id="corporate" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="890" y="100" width="280" height="130" as="geometry" />
         </mxCell>
         <mxCell id="corporate-header" value="CORPORATE DATA" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;fontStyle=1;fontSize=12;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
@@ -60,7 +60,7 @@
 
         <!-- Sub-entities - Purple for Security (KYC), Green for Data -->
         <!-- KYC Records - Purple Security -->
-        <mxCell id="kyc" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;" vertex="1" parent="1">
+        <mxCell id="kyc" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="290" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="kyc-header" value="KYC/AML (Security)" style="text;html=1;strokeColor=none;fillColor=#9673a6;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
@@ -71,7 +71,7 @@
         </mxCell>
 
         <!-- Identity Documents - Green Data -->
-        <mxCell id="identity" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
+        <mxCell id="identity" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="290" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="identity-header" value="IDENTITY DOCUMENTS" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
@@ -82,7 +82,7 @@
         </mxCell>
 
         <!-- Contact Details - Green Data -->
-        <mxCell id="contacts" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
+        <mxCell id="contacts" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="290" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="contacts-header" value="CONTACT DETAILS" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
@@ -93,7 +93,7 @@
         </mxCell>
 
         <!-- Addresses - Green Data -->
-        <mxCell id="addresses" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
+        <mxCell id="addresses" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="290" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="addresses-header" value="ADDRESSES" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
@@ -104,7 +104,7 @@
         </mxCell>
 
         <!-- Consents - Purple Security -->
-        <mxCell id="consents" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;" vertex="1" parent="1">
+        <mxCell id="consents" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="960" y="290" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="consents-header" value="CONSENTS (Security)" style="text;html=1;strokeColor=none;fillColor=#9673a6;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
@@ -147,7 +147,7 @@
         </mxCell>
 
         <!-- Related Entities Row - Blue for Services (linked accounts) -->
-        <mxCell id="accounts" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+        <mxCell id="accounts" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="460" width="250" height="100" as="geometry" />
         </mxCell>
         <mxCell id="accounts-header" value="LINKED ACCOUNTS (Service)" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
@@ -158,7 +158,7 @@
         </mxCell>
 
         <!-- Relationships - Green Data -->
-        <mxCell id="relationships" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
+        <mxCell id="relationships" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="460" width="250" height="100" as="geometry" />
         </mxCell>
         <mxCell id="relationships-header" value="RELATIONSHIPS (Data)" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
@@ -169,7 +169,7 @@
         </mxCell>
 
         <!-- Risk Profile - Purple Security -->
-        <mxCell id="risk" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;" vertex="1" parent="1">
+        <mxCell id="risk" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="460" width="250" height="100" as="geometry" />
         </mxCell>
         <mxCell id="risk-header" value="RISK PROFILE (Security)" style="text;html=1;strokeColor=none;fillColor=#9673a6;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
@@ -180,7 +180,7 @@
         </mxCell>
 
         <!-- Audit Trail - Gray Infrastructure -->
-        <mxCell id="audit-trail" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;" vertex="1" parent="1">
+        <mxCell id="audit-trail" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="920" y="460" width="250" height="100" as="geometry" />
         </mxCell>
         <mxCell id="audit-header" value="AUDIT TRAIL (Infrastructure)" style="text;html=1;strokeColor=none;fillColor=#666666;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
@@ -191,7 +191,7 @@
         </mxCell>
 
         <!-- Legend -->
-        <mxCell id="legend" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
+        <mxCell id="legend" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="590" width="600" height="50" as="geometry" />
         </mxCell>
         <mxCell id="legend-title" value="Color Legend:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=10;" vertex="1" parent="1">

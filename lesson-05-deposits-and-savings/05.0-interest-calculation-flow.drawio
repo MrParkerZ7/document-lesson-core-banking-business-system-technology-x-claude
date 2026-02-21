@@ -92,7 +92,7 @@
         </mxCell>
 
         <!-- Simple Interest -->
-        <mxCell id="simple-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
+        <mxCell id="simple-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="235" width="350" height="120" as="geometry" />
         </mxCell>
         <mxCell id="simple-header" value="SIMPLE INTEREST" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;fontStyle=1;fontSize=12;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
@@ -103,7 +103,7 @@
         </mxCell>
 
         <!-- Compound Interest -->
-        <mxCell id="compound-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+        <mxCell id="compound-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="235" width="400" height="120" as="geometry" />
         </mxCell>
         <mxCell id="compound-header" value="COMPOUND INTEREST" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;fontStyle=1;fontSize=12;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
@@ -118,7 +118,7 @@
           <mxGeometry x="80" y="375" width="350" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="dc-table" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;" vertex="1" parent="1">
+        <mxCell id="dc-table" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="405" width="450" height="140" as="geometry" />
         </mxCell>
         <mxCell id="dc-header" value="Convention       Days/Year    Use Case&#xa;─────────────────────────────────────────────&#xa;ACT/360          Actual/360   US Money Market&#xa;ACT/365          Actual/365   UK, Australia&#xa;ACT/ACT          Actual/Actual Bonds, some deposits&#xa;30/360           30-day/360   US Corporate Bonds&#xa;30E/360          European     European Markets" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingTop=10;fontSize=11;fontFamily=Courier New;" vertex="1" parent="1">
@@ -130,7 +130,7 @@
           <mxGeometry x="560" y="375" width="350" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="tiers-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" vertex="1" parent="1">
+        <mxCell id="tiers-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="405" width="290" height="140" as="geometry" />
         </mxCell>
         <mxCell id="tiers-content" value="Balance Range         Rate&#xa;─────────────────────────────&#xa;$0 - $9,999           2.00%&#xa;$10,000 - $49,999     3.00%&#xa;$50,000 - $99,999     4.00%&#xa;$100,000+             4.50%" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingTop=10;fontSize=11;fontFamily=Courier New;" vertex="1" parent="1">
@@ -196,7 +196,7 @@
           <mxGeometry x="80" y="670" width="200" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="gl-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;" vertex="1" parent="1">
+        <mxCell id="gl-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="700" width="450" height="100" as="geometry" />
         </mxCell>
         <mxCell id="gl-content" value="Interest Capitalization Journal Entry:&#xa;&#xa;DR  Interest Expense (P&amp;L)      $187.50&#xa;    CR  Customer Deposit (Liability)    $168.75&#xa;    CR  Tax Payable (Liability)         $18.75&#xa;&#xa;(Assumes 10% withholding tax)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingTop=10;fontSize=11;fontFamily=Courier New;" vertex="1" parent="1">
@@ -208,7 +208,7 @@
           <mxGeometry x="560" y="670" width="250" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="td-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;" vertex="1" parent="1">
+        <mxCell id="td-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="700" width="300" height="100" as="geometry" />
         </mxCell>
         <mxCell id="td-content" value="Maturity Instructions:&#xa;&#xa;• ROLLOVER_PRINCIPAL_INTEREST&#xa;• ROLLOVER_PRINCIPAL_ONLY&#xa;• CREDIT_TO_ACCOUNT&#xa;• HOLD_FOR_INSTRUCTION" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingTop=10;fontSize=11;" vertex="1" parent="1">
