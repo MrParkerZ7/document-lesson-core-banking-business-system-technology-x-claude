@@ -23,6 +23,70 @@ This curriculum provides a structured learning path for understanding how modern
 | 11 | [Security & Compliance](./lesson-11-security-and-compliance/README.md) | Authentication, authorization, regulatory compliance |
 | 12 | [Data Management](./lesson-12-data-management/README.md) | Data models, warehousing, analytics |
 
+## Repository Structure
+
+```
+lesson-01-introduction-to-core-banking/
+├── README.md
+├── 01.0-core-banking-overview.drawio
+└── 01.0-core-banking-overview.png
+
+lesson-02-core-banking-architecture/
+├── README.md
+├── 02.0-layered-architecture.drawio
+└── 02.0-layered-architecture.png
+
+lesson-03-customer-management/
+├── README.md
+├── 03.0-customer-information-file.drawio
+└── 03.0-customer-information-file.png
+
+lesson-04-account-management/
+├── README.md
+├── 04.0-account-structure.drawio
+└── 04.0-account-structure.png
+
+lesson-05-deposits-and-savings/
+├── README.md
+├── 05.0-interest-calculation-flow.drawio
+└── 05.0-interest-calculation-flow.png
+
+lesson-06-loans-and-credit/
+├── README.md
+├── 06.0-loan-lifecycle.drawio
+└── 06.0-loan-lifecycle.png
+
+lesson-07-payments-and-transfers/
+├── README.md
+├── 07.0-payment-flow.drawio
+└── 07.0-payment-flow.png
+
+lesson-08-general-ledger-and-accounting/
+├── README.md
+├── 08.0-gl-posting-flow.drawio
+└── 08.0-gl-posting-flow.png
+
+lesson-09-transaction-processing/
+├── README.md
+├── 09.0-transaction-processing.drawio
+└── 09.0-transaction-processing.png
+
+lesson-10-integration-and-apis/
+├── README.md
+├── 10.0-api-architecture.drawio
+└── 10.0-api-architecture.png
+
+lesson-11-security-and-compliance/
+├── README.md
+├── 11.0-security-architecture.drawio
+└── 11.0-security-architecture.png
+
+lesson-12-data-management/
+├── README.md
+├── 12.0-data-architecture.drawio
+└── 12.0-data-architecture.png
+```
+
 ## Prerequisites
 
 - Basic understanding of software development concepts
